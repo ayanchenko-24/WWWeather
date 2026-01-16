@@ -13,8 +13,8 @@ dp = Dispatcher()
 # Кнопки
 main_kb = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="Москва"), KeyboardButton(text="Санкт-Петербург")],
-        [KeyboardButton(text="Помощь")]
+        [KeyboardButton(text="Москва"), KeyboardButton(text="Новокузнецк")],
+        [KeyboardButton(text="Новосибирск"), KeyboardButton(text="Гомель")]
     ],
     resize_keyboard=True
 )
